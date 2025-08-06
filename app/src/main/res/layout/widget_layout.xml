@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/widgetTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Tasks"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"/>
+
+    <!-- Static TextViews to display up to 5 tasks -->
+    <TextView
+        android:id="@+id/widgetTaskItem0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Task 1"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/widgetTaskItem1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Task 2"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/widgetTaskItem2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Task 3"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/widgetTaskItem3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Task 4"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/widgetTaskItem4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Task 5"
+        android:textColor="@android:color/black" />
+
+</LinearLayout>

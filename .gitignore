@@ -1,0 +1,36 @@
+# Android Studio/IntelliJ IDEA
+*.iml
+.idea/
+.idea/caches
+.idea/libraries
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+
+# Gradle
+.gradle/
+build/
+*/build/
+captures/
+local.properties
+.gradle
+gradle-app/
+
+# Native build & external tools
+.externalNativeBuild/
+.cxx/
+
+# OS-generated
+.DS_Store
+Thumbs.db
+
+# Signing files
+*.jks
+*.keystore
+
+# Logs
+*.log
+
+# VS Code (if used)
+.vscode/
