@@ -35,7 +35,7 @@ health-fitness-tracker/
 
 ### 1. Clone the repository:
 
-git clone https://github.com/yourusername/health-fitness-app.git
+git clone https://github.com/Koshigawarman/health-fitness-app.git
 
 ### 2. Open in Android Studio:
 
